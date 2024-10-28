@@ -17,7 +17,7 @@ public class Cell extends JPanel implements Cloneable{
 	private boolean ispossibledestination;
 	private JLabel content;
 	private Piece piece;
-	int x,y;                             //is public because this is to be accessed by all the other class
+	public int x,y;                             //is public because this is to be accessed by all the other class
 	private boolean isSelected=false;
 	private boolean ischeck=false;
 	
